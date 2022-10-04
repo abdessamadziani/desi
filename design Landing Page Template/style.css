@@ -14,3 +14,72 @@
      --poppins:'Poppins','Karla', sans-serif;
 
 }
+
+body {
+    background-color: 	var(--main-color);
+    font-family: var(--karla);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.navigation1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navigation1 ul li{
+    padding-left: 20px;
+}
+
+.navigation1 ul li a{
+    font-weight: bold;
+}
+
+.navigation2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navigation2 ul li{
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.button {
+    background-color: var(--softblue);
+    border-radius: 3px;
+    padding: 8px 13px;
+}
+
+a.button {
+    color: var(--white);
+}
+
+.logo img{
+    padding: 1px 0;
+    width: 70%;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.image img {}
