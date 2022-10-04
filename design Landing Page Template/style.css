@@ -1,0 +1,16 @@
+:root
+{
+    /* colors */
+    --main-color:#FFF3D9;
+    --strongblue:#13366D ;
+    --green:#2BC79C;
+    --white:#FFFFFF;
+    --softblue: #0C449D;
+    --black:#000000;
+    --softgrey:#B8B8B8;
+    --stronggrey:#8A8A8A;
+     /* fonts */
+     --karla:'Karla', sans-serif;
+     --poppins:'Poppins','Karla', sans-serif;
+
+}
