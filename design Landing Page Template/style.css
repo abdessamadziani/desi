@@ -12,5 +12,291 @@
      /* fonts */
      --karla:'Karla', sans-serif;
      --poppins:'Poppins','Karla', sans-serif;
+     /*Font-Sizes */
+     --fs-body:1rem;
+     --fs-title: 2rem;
+     --fs-btn:0.625rem;
 
+
+}
+
+
+/*==========Preset=======================*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--karla);
+    font-size: var(--fs-body);
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.6;
+    background-color: var(--main-color);
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h3,
+h4,
+h6,
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/*==========Utility Classes=======================*/
+.wrapper {
+    margin: 0 1rem;
+}
+.dark-btn{
+    --fg:var(--softgrey);
+    --bg:var(--strongblue);
+}
+
+.light-btn{
+    --fg:var(--strongblue);
+    --bg: transparent;
+}
+
+.btn{
+    font-size: 0.75rem;
+    width: 100%;
+    border: 1px solid var(--strongblue);
+    border-radius: 3px;
+    background-color: var(--bg);
+    padding: 0.5em;
+    text-align: center;
+    color: var(--fg);
+}
+
+.feature-icon{
+    max-width: 52px;
+}
+
+.shadow {
+    box-shadow: 0.25px 2.50px #041C40;
+}
+/*=========Styling & Layout==============*/
+/*============Header=============*/
+.logo{
+    max-width: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.375em;
+}
+
+.navigation1,
+.navigation2 {
+    display: none;
+}
+
+.burger {
+    max-width: 32px;
+}
+
+/*===============Section 1=============*/
+section{
+    margin-top: 3.75em;
+}
+
+.intro-section{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3em;
+}
+.title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--strongblue);
+}
+
+.intro-text {
+    max-width: 650px;
+    font-size: 1rem;
+    margin-top: 1.25em;
+    color: var(--stronggrey);
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+#email_input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid var(--softgrey);
+    border-radius: 3px;
+}
+
+::placeholder {
+    font-size: 0.675rem;
+}
+
+.checkmarks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-top: 0.625em;
+}
+.checkmark{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.checkmark span{
+    font-size: 0.75rem;
+    color: var(--stronggrey);
+}
+
+/*=============Features-Section=============================*/
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 3em;
+}
+.feature{
+    background-color: var(--white);
+    padding: 24px 32px;
+    border: 1px solid var(--stronggrey);
+    border-radius: 4px;
+}
+
+.feature-title,
+.feature-text{
+    margin-top: 1rem;
+}
+
+.feature-title{
+    font-size: 1.75rem;
+}
+
+.feature-text{
+    font-size: 1.25rem;
+    padding-right: 16px;
+    color: var(--softgrey);
+}
+
+/*=================Cta Section=========================*/
+
+.section3 {
+    margin-top: 5em;
+}
+
+.cta-text{
+    font-size: 0.825rem;
+    margin-top: 1.5em;
+    color: var(--softgrey);
+}
+.plans{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.price,
+.ad{
+    padding: 1.75em 1.5em;
+    border: 1px solid var(--stronggrey);
+    border-radius: 4px;
+}
+
+.plan-tag{
+    --fg:var(--white);
+    font-size: 0.75rem;
+    display: inline-block;
+    background-color: var(--bg);
+    padding: 0.675rem 1.5rem;
+    border: 1px solid var(--strongblue);
+    border-radius: 32px;
+    box-shadow: 0.25px 2.50px 4px 0px #13366D;
+    color: var(--fg);
+}
+
+.button {
+    display: block;
+    padding: 0.5rem 0;
+    margin-top: 16px;
+    cursor: pointer;
+    
+}
+
+.button.dark-btn {
+    --fg:var(--white);
+}
+
+.plan-features {
+    margin-top: 1.75em;
+}
+
+.plan-features > * + *{
+    margin-top: 1.5em;
+}
+.plan-feature {
+    font-size: 0.925rem;
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    color: var(--stronggrey);
+}
+
+.plan-feature span{
+    margin-bottom: 2px;
+}
+
+.bold {
+    font-weight: 900;
+    color: var(--black);
+}
+.plan-price {
+    font-size: 2.25rem;
+}
+
+.plan-price span{
+    color: var(--stronggrey);
+}
+
+.ent-price {
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    color: var(--stronggrey);
+}
+
+.ad p{
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    color: var(--stronggrey);
+}
+.img-container {
+    display: block;
+}
+
+.footer-text{
+    margin-top: 3.75rem;
 }
