@@ -6,111 +6,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 
 <title>Desi-gn</title>
 </head>
 <body>
-    <header class="container">
-        <div class="logo">
-            <img src="../design Landing Page Template/images/logo.png" alt="Logo">
-        </div>
-        <div class="navigation1">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing & Plans</a></li>
-            </ul>
-        </div>
-        <div class="navigation2">
-            <ul>
-                <li><a href="#">Sign in</a></li>
-                <li><a href="#" class="button">Try for free</a></li>
-            </ul>
-        </div>
-    </header>
-    <section>
-        <div class="section1">
-            <div class="content">
-                <h1>Unlimited Designs. Flat Monthly Fee.</h1>
-                <p>Get unlimited designs in areas such as web design, app design,<br> brochures and much more for a flat monthly fee. No additional <br> charges.</p>
-                <div class="email">
-                    <input type="email" name="email" id="email_input" placeholder="Enter e-mail address">
-                    <a href="#" class="button">Try for free</a>
-                    <div class="checkmark">
-                        <img src="../design Landing Page Template/images/Checkmark.png" alt="">
-                        14 day money back guarantee
-                        <img src="../design Landing Page Template/images/Checkmark.png" alt="">
-                        14 day money back guarantee
+    <div class="wrapper">
+        <header class="container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Logo">
+            </div>
+            <div class="navigation1">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing & Plans</a></li>
+                </ul>
+            </div>
+            <div class="navigation2">
+                <ul>
+                    <li><a href="#">Sign in</a></li>
+                    <li><a href="#" class="button">Try for free</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <img src="./images/hamburger.png" alt="">
+            </div>
+        </header>
+        <section>
+            <div class="intro-section">
+                <div class="content">
+                    <h1 class="title">Unlimited Designs. Flat Monthly Fee.</h1>
+                    <p class="intro-text">Get unlimited designs in areas such as web design, app design, brochures and much more for a flat monthly fee. No additional charges.</p>
+                    <div class="email">
+                        <div class="input-container">
+                            <input type="email" name="email" id="email_input" placeholder="Enter e-mail address">
+                            <a class="btn dark-btn shadow" href="#" class="button">Try for free</a>
+                        </div>
+                        <div class="checkmarks">
+                            <div class="checkmark">
+                                <div class="img-container">
+                                    <img src="./images/Checkmark.png" alt="">
+                                </div>
+                                <span>14 day money back guarantee</span>
+                            </div>
+                            <div class="checkmark">
+                                <div class="img-container">
+                                    <img src="./images/Checkmark.png" alt="">
+                                </div>
+                                <span>No credit card required.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./images/BG Hero.png" alt="BG Hero">
+                </div>
+            </div>
+            <div class="section2">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="./images/📤.png" alt="">
+                    </div>
+                    <h3 class="feature-title">Request Design</h3>
+                    <p class="feature-text">Send us a message with all the details. At any time during the day. Through discord, Slack</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="./images/🤸.png" alt="">
+                    </div>
+                    <h3 class="feature-title">Quick Response</h3>
+                    <p class="feature-text">One of our designers will get back to you within 24 hrs detailing the time frame you will be receiving your designs.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="./images/📚.png" alt="">
+                    </div>
+                    <h3 class="feature-title">Revisions</h3>
+                    <p class="feature-text">Unlimited revisions are included in all our plans. At no extra fee whatsoever so that we can ensure you love the final designs.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="./images/🎉.png" alt="">
+                    </div>
+                    <h3 class="feature-title">All done</h3>
+                    <p class="feature-text">Done with one project? No problem keep asking for more, it's all included in the price. Again, at no extra fee whatsoever!</p>
+                </div>
+            </div>
+            <div class="section3">
+                <h1 class="title">Transparent Pricing.</h1>
+                <p class="cta-text">No hidden fees or extra charges, view the charts for all things pricing-related.</p>
+                <div class="plans">
+                    <div class="price">
+                        <h4 class="plan-tag dark-btn">Startup</h4>
+                        <a href="#" class="button btn dark-btn shadow">Try for free</a>
+                        <ul class="plan-features">
+                            <li class="plan-feature"><span>&#128073;</span> Brochures, websites, applictions. </li>
+                            <li class="plan-feature"><span>&#128073;</span> Free stock photos. </li>
+                            <li class="plan-feature"><span>&#128073;</span> unlimited revisions </li>
+                            <li class="plan-feature"><span>&#128073;</span> Unlimited orders. </li>
+                            <li class="plan-price">$699<span>/mo</span></li>
+                        </ul>
+                    </div>
+                    <div class="price">
+                        <h4 class="plan-tag dark-btn" >Business</h4>
+                        <a href="#" class="button btn light-btn">Try for free</a>
+                        <ul class="plan-features">
+                            <li class="plan-feature bold"><span>&#128073;</span> All startup features </li>
+                            <li class="plan-feature"><span>&#128073;</span> Front-end development </li>
+                            <li class="plan-feature"><span>&#128073;</span> Full-time support. </li>
+                            <li class="plan-feature"><span>&#128073;</span> Slack communication </li>
+                            <li class="plan-price">$1299<span>/mo</span></li>
+                        </ul>
+                    </div>
+                    <div class="price">
+                        <h4 class="plan-tag dark-btn">entreprise</h4>
+                        <a href="#" class="button btn light-btn">schedule consultancy call</a>
+                        <p class="ent-price">We offer customizable plans for entreprises who are looking to make use of our service.</p>
+                        <p class="plan-price">Contact Us</p>
+                    </div>
+                    <div class="ad">
+                        <h6>Ads via Carbon</h6>
+                        <div class="img-container">
+                            <img src="./images/ads.png" alt="ads">
+                        </div>
+                        <p>Get 20% off Adobe Plans using our Promo Code 'desi.gn20'</p>
                     </div>
                 </div>
             </div>
-            <div class="image">
-                <img src="../design Landing Page Template/images/BG Hero.png" alt="BG Hero">
-            </div>
-        </div>
-        <div class="Section2">
-            <div class="feature">
-                <img src="../design Landing Page Template/images/📤.png" alt="">
-                <h3>Request Design</h3>
-                Send us a message with all the details. At any time during the day. Through discord, Slack, or even WhatsApp.
-            </div>
-            <div class="feature">
-                <img src="../design Landing Page Template/images/🤸.png" alt="">
-                <h3>Quick Response</h3>
-                One of our designers will get back to you within 24 hrs detailing the time frame you will be receiving your designs.
-            </div>
-            <div class="feature">
-                <img src="../design Landing Page Template/images/📚.png" alt="">
-                <h3>Revisions</h3>
-                Unlimited revisions are included in all our plans. At no extra fee whatsoever so that we can ensure you love the final designs.
-            </div>
-            <div class="feature">
-                <img src="../design Landing Page Template/images/🎉.png" alt="">
-                <h3>All done</h3>
-                Done with one project? No problem keep asking for more, it's all included in the price. Again, at no extra fee whatsoever!
-            </div>
-        </div>
-        <div class="section2">
-            <h1>Transparent Pricing.</h1>
-            No hidden fees or extra charges, view the charts for all things pricing- <br> related.
-            <div class="price">
-                <h4>Startup</h4>
-                <a href="#" class="button">Try for free</a>
-                <p>Brochures, websites, applictions.</p>
-                <p>Free stock photos.</p>
-                <p>unlimited revisions</p>
-                <p>Unlimited orders.</p>
-                <p>$699/mo</p>
-            </div>
-            <div class="price">
-                <h4>Business</h4>
-                <a href="#" class="button">Try for free</a>
-                <p>All startup features</p>
-                <p>Front-end development</p>
-                <p>Full-time support.</p>
-                <p>Slack communication</p>
-                <p>$1299/mo</p>
-            </div>
-            <div class="price">
-                <h4>entreprise</h4>
-                <a href="#" class="button">schedule consultancy call</a>
-                <p>We offer customizable plans for entreprises who are looking to make use of our service.</p>
-                <p>Contact Us</p>
-            </div>
-            <div class="ad">
-                <h6>Ads via Carbon</h6>
-                <img src="../design Landing Page Template/images/ads.png" alt="ads">
-                <p>Get 20% off Adobe Plans using our Promo Code 'desi.gn20'</p>
-            </div>
-        </div>
-    </section>
-    <footer>
-        Made with love by (karma)
-    </footer>
+        </section>
+        <footer>
+            <p class="footer-text">
+                Made with &#10084; by (karma)
+            </p>
+        </footer>
+    </div>
 </body>
 </html>
