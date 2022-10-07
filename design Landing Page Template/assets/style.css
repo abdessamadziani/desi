@@ -201,6 +201,7 @@ section{
 
 .price,
 .ad{
+   
     padding: 1.75em 1.5em;
     border: 1px solid var(--stronggrey);
     border-radius: 4px;
@@ -278,5 +279,139 @@ section{
 
 .footer-text{
     margin-top: 3.75rem;
+}
+
+
+
+/* ========Tablet========= */
+
+@media (min-width:768px){ 
+/* ==================The Header===================== */
+    /* Remove Menu Icon */
+    .burger{
+        display: none;
+    }
+
+    /* display the naviguation bar */
+    .navigation1 , .navigation2 {
+        display: contents;
+    }
+
+/* ==== Naviguation 1 ==== */
+    .navigation1 ul{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .navigation1 ul li{
+        padding: 0 10px;
+    }
+
+    .navigation1 ul li a{
+        color: var(--black);
+        font-size: 20px;
+    }
+
+    /* ==== Naviguation 2 ==== */
+    .navigation2 ul{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .navigation2 ul li{
+        padding: 0 10px;
+    }
+
+    .navigation2 ul li a{
+        font-size: 20px;
+        /* Fixing the decalage between the naviguations */
+        margin: 0;
+    }
+    
+    .navigation2 ul li:first-child a{
+        color: black;
+    }
+
+    /* =================The Sections============== */
+    /* ===The First Section==== */
+    .input-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis:  auto;
+        justify-content: space-evenly;
+        gap:2px;
+    }
+
+    input[type=email]{
+        flex-basis:  80%;
+    }
+
+    .input-container a{
+        flex-basis:  19%;
+    }
+
+    /*Check marks */
+    .checkmarks{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis:  auto;
+        justify-content: space-evenly;
+    }
+
+    .checkmarks > div{
+        width: 47.5%;
+        
+    }
+
+    .checkmarks div span{
+        font-size: 20px;
+    }
+
+    /* ===The Second Section==== */
+    .section2{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis:  auto;
+        justify-content: space-evenly;
+    }
+    
+    .section2 > div{
+        width: 47.5%;
+    }
+
+    /* =====The Third Section===== */
+    .plans{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis:  auto 0;
+        justify-content: space-evenly;
+    }
+
+    .plans > div{
+        gap:2px;
+        width: 47.5%;
+    }
+    
+    .plans div:nth-child(3) p:last-child {
+        font-size: 2.25rem;
+        margin-top: 200px;
+        
+    }
+
+    .plans div:nth-child(3) p:last-child a{
+        color: black;
+    }
+
+    .ad{
+        height: 50%;
+    }
+
+}
+
+@media (min-width:1024px){ 
+
+
 }
 
