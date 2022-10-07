@@ -39,6 +39,14 @@ ul{
     padding-left: 0;
     margin: 0;
 }
+.plans div:nth-child(3) ul li a{
+    color: black;
+}
+.price 
+{
+    background-color: #f5e3bc;
+    border: 2px  solid grey;
+}
 
 /*==========Utility Classes=======================*/
 .wrapper {
@@ -421,13 +429,13 @@ section{
         width: 47.5%;
     }
     
-    .plans div:nth-child(3) p:last-child {
+    .plans div:nth-child(3) ul:last-child {
         font-size: 2.25rem;
         margin-top: 200px;
         
     }
 
-    .plans div:nth-child(3) p:last-child a{
+    .plans div:nth-child(3) ul li a{
         color: black;
     }
 
