@@ -410,8 +410,141 @@ section{
 
 }
 
-@media (min-width:1024px){ 
+@media (min-width: 1024px) {
+    .wrapper {
+        max-width: 78%;
+        margin: 0 auto;
+    }
 
+    .navigation1,
+    .navigation2 {
+        display: flex;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .navigation1 ul {
+        display: flex;
+        margin-left: 40px;
+    }
+
+    .navigation1 ul li {
+        padding-left: 15px;
+    }
+
+    .navigation1 ul li a {
+        color: var(--black);
+    }
+
+    .navigation2 ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation2 ul li {
+        padding-left: 15px;
+    }
+
+    .navigation2 ul li:first-child {
+        color: var(--stronggrey);
+    }
+
+    .navigation2 ul li a.button
+    {
+        margin-bottom: 20px;
+    }
+
+    .button1 {
+        background-color: var(--softblue);
+        border-radius: 3px;
+        box-shadow: 0.25px 2.5px #041c40;
+        padding: 6px 18px;
+    }
+        
+    a.button1 {
+        color: var(--white);
+    }
+
+    .intro-section {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .input-container {
+        flex-direction: row;
+    }
+
+    .input-container .btn {
+        margin-bottom: 3px;
+    }
+
+    .checkmarks {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section2 {
+        flex-direction: row;
+    }
+
+    .feature {
+        padding: 24px 16px;
+        width: 25%;
+    }
+
+    .feature-title {
+        font-size: 20px;
+    }
+
+    .feature-text {
+        font-size: 13px;
+    }
+
+    .feature-text span {
+        font-weight: bold;
+        color: var(--black);
+    }
+
+    .section3 {
+        margin-top: 3em;
+    }
+
+    .plans {
+        flex-direction: row;
+        flex-grow: 0;
+    }
+
+    .plan-feature {
+        align-items: unset;
+    }
+
+    p.plan-price {
+        padding-top: 98px;
+        font-size: 26px;
+    }
+
+    li.plan-price {
+        font-size: 26px;
+    }
+
+    .price {
+        flex-basis: 25%;
+        padding: 1.75em 1em;
+    }
+
+    .ad {
+        height: 30%;
+        flex-basis: 25%;
+    }
+
+    .footer-text {
+        margin-bottom: 30px;
+    }
+    .plan-price{
+        margin-top: 6rem;
+    }
 
 }
 
