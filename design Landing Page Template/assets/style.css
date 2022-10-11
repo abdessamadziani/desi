@@ -8,12 +8,21 @@
 }
 
 body{
+<<<<<<< HEAD
  font-family: var(--karla);
  font-size: var(--fs-body);
  font-weight: 500;
  margin: 0;
  line-height: 1.6;
  background-color: var(--main-color);
+=======
+    font-family: var(--karla);
+    font-size: var(--fs-body);
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.6;
+    background-color: var(--main-color);
+>>>>>>> aef7a1c91af43e46556996183807040ef5313220
 }
 
 img{
@@ -87,15 +96,26 @@ ul{
 }
 
 header {
+<<<<<<< HEAD
  display: flex;
  align-items: center;
  justify-content: space-between;
  margin-top: 2.375em;
+=======
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.375em;
+>>>>>>> aef7a1c91af43e46556996183807040ef5313220
 }
 
 .navigation1,
 .navigation2 {
+<<<<<<< HEAD
  display: none;
+=======
+    display: none;
+>>>>>>> aef7a1c91af43e46556996183807040ef5313220
 }
 
 #hamburger-icon {
@@ -391,6 +411,7 @@ span {
  }
 
 /* ==== Naviguation 1 ==== */
+<<<<<<< HEAD
  .navigation1 ul{
  display: flex;
  align-items: center;
@@ -524,12 +545,148 @@ span {
  a.button1 {
  color: var(--white);
  }
+=======
+    .navigation1 ul{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -26px;
+    }
+
+    .navigation1 ul li{
+        padding: 0 10px;
+    }
+
+    .navigation1 ul li a{
+        color: var(--black);
+        font-size: 20px;
+    }
+
+    /* ==== Naviguation 2 ==== */
+    .navigation2 ul{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -26px;
+    }
+
+    .navigation2 ul li{
+        padding: 0 10px;
+    }
+
+    .navigation2 ul li a{
+        font-size: 20px;
+        /* Fixing the decalage between the naviguations */
+        margin: 0;
+    }
+    
+    .navigation2 ul li:first-child a{
+        color: black;
+    }
+  
+
+    /* =================The Sections============== */
+    /* ===The First Section==== */
+    .intro-section
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .title 
+    {
+        font-size: 23px;
+    }
+    .input-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis:auto;
+         justify-content: space-between; 
+        gap:2px;
+    }
+
+    input[type=email]{
+        flex-basis:  48%;
+    }
+
+    .input-container a{
+        flex-basis:  48%;
+    }
+
+    /*Check marks */
+    .checkmarks{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis:  auto;
+        justify-content: space-between;
+    }
+
+    .checkmarks > div{
+        width: 47.5%;
+        
+    }
+
+    .checkmarks div span{
+        font-size: 8px;
+    }
+
+    /* ===The Second Section==== */
+    .section2{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis:  auto;
+        justify-content: space-evenly;
+    }
+    
+    .section2 > div{
+        width: 47.5%;
+    }
+
+    /* =====The Third Section===== */
+    .plans{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis:  auto 0;
+        justify-content: space-evenly;
+    }
+
+    .plans > div{
+        gap:2px;
+        width: 47.5%;
+    }
+    
+    .plans div:nth-child(3) ul:last-child {
+        font-size: 2.25rem;
+        margin-top: 200px;
+        
+    }
+
+    .plans div:nth-child(3) ul li a{
+        color: black;
+    }
+
+    .ad{
+        height: 50%;
+    }
+    
+    .button1 {
+        background-color: var(--softblue);
+        border-radius: 3px;
+        box-shadow: 0.25px 2.5px #041c40;
+        padding: 6px 18px;
+    }
+        
+    a.button1 {
+        color: var(--white);
+    }
+>>>>>>> aef7a1c91af43e46556996183807040ef5313220
 
 }
 
 /*=================Desktop version=========================*/
 
 @media (min-width: 1024px) {
+<<<<<<< HEAD
  .wrapper {
  max-width: 80%;
  margin: 0 auto;
@@ -682,5 +839,159 @@ span {
  position: absolute;
  top:65%;
  }
+=======
+    .wrapper {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .navigation1,
+    .navigation2 {
+        display: flex;
+    }
+
+    #hamburger-icon {
+        display: none;
+    }
+
+    .navigation1 ul {
+        display: flex;
+        margin-left: 40px;
+        margin-top: -26px;
+    }
+
+    .navigation1 ul li {
+        padding-left: 15px;
+    }
+
+    .navigation1 ul li a {
+        color: var(--black);
+    }
+
+    .navigation2 ul {
+        display: flex;
+        align-items: center;
+        margin-top: -26px;
+    }
+
+    .navigation2 ul li {
+        padding-left: 15px;
+    }
+
+    .navigation2 ul li:first-child {
+        color: var(--stronggrey);
+    }
+
+    .navigation2 ul li a.button
+    {
+        margin-bottom: 20px;
+    }
+
+    .button1 {
+        background-color: var(--softblue);
+        border-radius: 3px;
+        box-shadow: 0.25px 2.5px #041c40;
+        padding: 6px 18px;
+    }
+        
+    a.button1 {
+        color: var(--white);
+    }
+
+    .intro-section {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .input-container {
+        flex-direction: row;
+    }
+
+    .input-container .btn {
+        margin-bottom: 3px;
+        color: var(--white);
+    }
+
+    .checkmarks {
+        flex-direction: row;
+        justify-items:center;
+        gap: 30px;
+        
+    }
+
+    .section2 {
+        flex-direction: row;
+    }
+
+    .feature {
+        padding: 24px 16px;
+        width: 25%;
+    }
+
+    .feature-title {
+        font-size: 20px;
+    }
+
+    .feature-text {
+        font-size: 13px;
+    }
+
+    .feature-text span {
+        font-weight: bold;
+        color: var(--black);
+    }
+
+    .section3 {
+        margin-top: 3em;
+    }
+
+    .plans {
+        flex-direction: row;
+        flex-grow: 0;
+    }
+
+    .plan-feature {
+        align-items: unset;
+    }
+
+    p.plan-price {
+        padding-top: 98px;
+        font-size: 26px;
+    }
+
+    li.plan-price {
+        font-size: 26px;
+    }   
+
+    .price {
+        flex-basis: 25%;
+        padding: 1.75em 1em;
+    }
+
+    .ad {
+        height: 30%;
+        flex-basis: 25%;
+    }
+
+    .footer-text {
+        margin-bottom: 30px;
+    }
+
+    .plan-price{
+        margin-top: 6rem;
+    }
+
+    .price
+    {
+        position: relative;
+        height: 450px;
+    }
+
+    .plan-price
+    {
+        position: absolute;
+        top:65%;
+    }
+>>>>>>> aef7a1c91af43e46556996183807040ef5313220
 
 }
