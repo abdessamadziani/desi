@@ -36,8 +36,17 @@
                     <li><a  href="#" class="button1">Try for free</a></li>
                 </ul>
             </div>
-            <div class="burger">
-                <img src="./images/hamburger.png" alt="">
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a class="h_links" href="#">Home</a></li>
+                    <li><a class="h_links" href="#">Features</a></li>
+                    <li><a class="h_links" href="#">Pricing & Plans</a></li>
+                    <li><a href="#" >Sign in</a></li>
+                    <li><a  href="#" class="button1">Try for free</a></li>
+                </ul>
             </div>
         </header>
         <section>
@@ -76,7 +85,7 @@
                         <img src="./images/📤.png" alt="">
                     </div>
                     <h3 class="feature-title">Request Design</h3>
-                    <p class="feature-text">Send us a message with all the details. At any time during the day. Through discord, Slack</p>
+                    <p class="feature-text">Send us a message with all the details. At any time during the day. Through <span>discord,</span> <span>Slack,</span> or even <span>WhatsApp.</span></p>
                 </div>
                 <div class="feature">
                     <div class="feature-icon">
@@ -147,10 +156,11 @@
         </section>
         <footer>
             <p class="footer-text">
-                Made with &#10084; by (karma)
+                Made with &#10084; by {Karma}
             </p>
         </footer>
     </div>
-    <script src="assets/script.js"></script>
+    <script src="index.js"></script>
+
 </body>
 </html>
